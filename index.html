@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>My first web page using jquery.</title>
+    <!-- <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script> -->
+    <script src="js/myFirst.js"></script>
+  </head>
+  <body>
+    <h1>Example HTML Elements</h1>
+   
+    <div> 
+      <h2>Example text inputs with button</h1>
+      <label for="username">UserName:</label>
+      <input name="username" id="username" type="text" minlength="4" placeholder="Enter your Username" required>
+      <label for="password">Password:</label>
+      <input name="password" id="password" type="password" required>
+    </div>
+    <button id="Login-button" onclick="loginButtonClicked()">Login</button>
+    <p>
+      This is Example paragraph.
+    </p>
+
+
+    <h2>Example Table</h2>
+    <table>
+      <tr>
+        <td>Username:</td>
+        <td><input type="text" id="username1"/></td>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" id="password1"/></td>
+      </tr>
+    </table>
+
+    <h2> Example Radio Button </h2>
+    <p>Select your gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <div>
+      <h2> Example Get time button </h2>
+      <button id="getTimeButton" onclick="displayDate()"> Get Current Time</button>
+      <p id="currentTime"></p>
+    </div>
+   
+
+  <h2> Example Form </h2>
+  <form action="/form/submit" method="post">
+  </form>
+   
+  </body>
+</html>
